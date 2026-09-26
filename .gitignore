@@ -216,3 +216,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# excluding the Olist raw data since they are heavy, its a popular dataset & links to the dataset is on the readme document
+Olist Tables/
