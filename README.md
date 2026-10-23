@@ -2,6 +2,10 @@
 
 **Olist Brazilian E-Commerce Dataset | Python, Tableau**
 
+**TL;DR:** Late deliveries were over 5x more likely to get a 1–2 star review (62.4% vs 11.4% for on-time orders). Reducing delays, especially beyond 3 days, is the biggest lever for improving customer satisfaction.
+
+[![Dashboard preview](dashboard/dashboard-preview.png)](https://public.tableau.com/app/profile/chidiogo.ezeugwu/viz/CustomerSatisfactionDeliveryPerformanceAnalysis/Dashboard1)
+
 ## Project Overview
 
 This project analyzes customer satisfaction on the Olist e-commerce platform and investigates the impact of delivery performance on customer reviews. The objective is to identify the factors influencing customer satisfaction and provide actionable recommendations for improving the overall customer experience.
@@ -95,15 +99,15 @@ An interactive Tableau dashboard was built to let users explore:
 
 ## Tools Used
 
-- **Python**, Pandas, NumPy, Matplotlib, Seaborn
-- **Tableau**, interactive dashboard
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn
+- **Tableau**: interactive dashboard
 
 ## Repository Contents
 
-- `notebook/`, full analysis notebook (data cleaning, feature engineering, EDA, correlation analysis)
-- `dashboard/`, Tableau workbook (`.twbx`)
-- `presentation/`, summary slide deck
-- `data/`, cleaned, feature-engineered dataset (CSV) used as the Tableau data source
+- `notebook/`: full analysis notebook (data cleaning, feature engineering, EDA, correlation analysis)
+- `dashboard/`: Tableau workbook (`.twbx`) and dashboard preview image (`dashboard-preview.png`)
+- `presentation/`: summary slide deck
+- `data/`: cleaned, feature-engineered dataset (CSV) used as the Tableau data source
 
 ## How to Reproduce Locally
 
